@@ -58,27 +58,27 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.candy.red {
+.candy.Red {
     background-image: url('./images/Red.png');
 }
 
-.candy.green {
+.candy.Green {
     background-image: url('./images/Green.png');
 }
 
-.candy.blue {
+.candy.Blue {
     background-image: url('./images/Blue.png');
 }
 
-.candy.yellow {
+.candy.Yellow {
     background-image: url('./images/Yellow.png');
 }
 
-.candy.purple {
+.candy.Purple {
     background-image: url('./images/Purple.png');
 }
 
-.candy.orange {
+.candy.Orange {
     background-image: url('./images/Orange.png');
 }
 
