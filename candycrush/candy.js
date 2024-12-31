@@ -4,7 +4,7 @@ let score = 0;
 
 const rows = 9;
 const cols = 9;
-const candies = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
+const candies = ['Red', 'Green', 'Blue', 'Yellow', 'Purple', 'Orange'];
 const ANIMATION_DURATION = 300;
 const CANDY_SIZE = 50; // Size of each candy in pixels
 
