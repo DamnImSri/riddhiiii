@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-image: url('Gemini_Generated_Image_j2t0z0j2t0z0j2t0.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 200, 200, 0.8);
+    /* Adjust opacity as needed */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 450px;
+    /* Adjust width as needed */
+    position: relative;
+    /* Make the container positionable */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Comic Sans MS', cursive;
+    /* Example font */
+    color: #333;
+    /* Dark gray color */
+    /* Light background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.candy {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.candy.red {
+    background-image: url('./images/red_candy.png');
+}
+
+.candy.green {
+    background-image: url('./images/green_candy.png');
+}
+
+.candy.blue {
+    background-image: url('./images/blue_candy.png');
+}
+
+.candy.yellow {
+    background-image: url('./images/yellow_candy.png');
+}
+
+.candy.purple {
+    background-image: url('./images/purple_candy.png');
+}
+
+.candy.orange {
+    background-image: url('./images/orange_candy.png');
+}
+
+.candy.matched {
+    animation: glow 0.5s ease-in-out;
+}
+
+@keyframes glow {
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+#score {
+    font-size: 1.5rem;
+    color: #333;
+}
