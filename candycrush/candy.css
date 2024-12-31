@@ -59,27 +59,27 @@ h1 {
 }
 
 .candy.red {
-    background-image: url('./images/red_candy.png');
+    background-image: url('./images/Red.png');
 }
 
 .candy.green {
-    background-image: url('./images/green_candy.png');
+    background-image: url('./images/Green.png');
 }
 
 .candy.blue {
-    background-image: url('./images/blue_candy.png');
+    background-image: url('./images/Blue.png');
 }
 
 .candy.yellow {
-    background-image: url('./images/yellow_candy.png');
+    background-image: url('./images/Yellow.png');
 }
 
 .candy.purple {
-    background-image: url('./images/purple_candy.png');
+    background-image: url('./images/Purple.png');
 }
 
 .candy.orange {
-    background-image: url('./images/orange_candy.png');
+    background-image: url('./images/Orange.png');
 }
 
 .candy.matched {
